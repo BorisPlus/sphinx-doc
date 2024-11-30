@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>something_module.functions package &#8212; something  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=27fed22d" />
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="something_module package" href="something_module.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="something_module.html" title="Previous document">something_module package</a>
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <section id="something-module-functions-package">
+<h1>something_module.functions package<a class="headerlink" href="#something-module-functions-package" title="Link to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-something_module.functions.sub_bst">
+<span id="something-module-functions-sub-bst-module"></span><h2>something_module.functions.sub_bst module<a class="headerlink" href="#module-something_module.functions.sub_bst" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubBinarySearchTree">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">something_module.functions.sub_bst.</span></span><span class="sig-name descname"><span class="pre">SubBinarySearchTree</span></span><a class="headerlink" href="#something_module.functions.sub_bst.SubBinarySearchTree" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Basic BST object supporting pre-order, in-order, post-order traversal. This tree assumes that all values added through <code class="docutils literal notranslate"><span class="pre">insert_node</span></code> are unique.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubBinarySearchTree.insert_node">
+<span class="sig-name descname"><span class="pre">insert_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#something_module.functions.sub_bst.SubBinarySearchTree.insert_node" title="Link to this definition">¶</a></dt>
+<dd><p>Inserts a node into the Binary Search Tree</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>int</em>) – The number to insert into the BST.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubBinarySearchTree.root">
+<span class="sig-name descname"><span class="pre">root</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#something_module.functions.sub_bst.SubNode" title="something_module.functions.sub_bst.SubNode"><span class="pre">SubNode</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#something_module.functions.sub_bst.SubBinarySearchTree.root" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubNode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">something_module.functions.sub_bst.</span></span><span class="sig-name descname"><span class="pre">SubNode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#something_module.functions.sub_bst.SubNode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Basic Node object for use in a Binary Search Tree.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>int</em>) – The data enveloped by the Node.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubNode.data">
+<span class="sig-name descname"><span class="pre">data</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#something_module.functions.sub_bst.SubNode.data" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubNode.l_child">
+<span class="sig-name descname"><span class="pre">l_child</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#something_module.functions.sub_bst.SubNode" title="something_module.functions.sub_bst.SubNode"><span class="pre">SubNode</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#something_module.functions.sub_bst.SubNode.l_child" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="something_module.functions.sub_bst.SubNode.r_child">
+<span class="sig-name descname"><span class="pre">r_child</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#something_module.functions.sub_bst.SubNode" title="something_module.functions.sub_bst.SubNode"><span class="pre">SubNode</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#something_module.functions.sub_bst.SubNode.r_child" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-something_module.functions.x">
+<span id="something-module-functions-x-module"></span><h2>something_module.functions.x module<a class="headerlink" href="#module-something_module.functions.x" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="something_module.functions.x.x">
+<span class="sig-prename descclassname"><span class="pre">something_module.functions.x.</span></span><span class="sig-name descname"><span class="pre">x</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">i</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#something_module.functions.x.x" title="Link to this definition">¶</a></dt>
+<dd><p>x function</p>
+</dd></dl>
+
+</section>
+<section id="module-something_module.functions.xx">
+<span id="something-module-functions-xx-module"></span><h2>something_module.functions.xx module<a class="headerlink" href="#module-something_module.functions.xx" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="something_module.functions.xx.xx">
+<span class="sig-prename descclassname"><span class="pre">something_module.functions.xx.</span></span><span class="sig-name descname"><span class="pre">xx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">i</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#something_module.functions.xx.xx" title="Link to this definition">¶</a></dt>
+<dd><p>xx function</p>
+</dd></dl>
+
+</section>
+<section id="module-something_module.functions">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-something_module.functions" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="something_module.html" title="Previous document">something_module package</a>
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">something</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">something_module</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="something_module.html">something_module package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="something_module.html#subpackages">Subpackages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="something_module.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="something_module.html#module-something_module.bst">something_module.bst module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="something_module.html#module-something_module">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">something_module.functions package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-something_module.functions.sub_bst">something_module.functions.sub_bst module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#something_module.functions.sub_bst.SubBinarySearchTree"><code class="docutils literal notranslate"><span class="pre">SubBinarySearchTree</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#something_module.functions.sub_bst.SubNode"><code class="docutils literal notranslate"><span class="pre">SubNode</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-something_module.functions.x">something_module.functions.x module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#something_module.functions.x.x"><code class="docutils literal notranslate"><span class="pre">x()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-something_module.functions.xx">something_module.functions.xx module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#something_module.functions.xx.xx"><code class="docutils literal notranslate"><span class="pre">xx()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-something_module.functions">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">something_module</a><ul>
+  <li><a href="something_module.html">something_module package</a><ul>
+      <li>Previous: <a href="something_module.html" title="previous chapter">something_module package</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Somebody.
+      
+      |
+      <a href="../_sources/output/something_module.functions.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

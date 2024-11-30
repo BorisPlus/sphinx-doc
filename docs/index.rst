@@ -8,10 +8,13 @@ Here it may to be ``reStructuredText`` syntax (`reStructuredText <https://www.sp
    :caption: Contents:
 
    about
-   mycode
-   classes/all
-   functions/x
-   functions/xx
-   functions/sub_bst
-   functions/modules
+   .. mycode
+   .. classes/all
+   .. functions/x
+   .. functions/xx
+   .. functions/sub_bst
+   .. functions/modules
+
+   output/something_module
+   output/something_module.functions
 
