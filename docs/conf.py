@@ -18,6 +18,7 @@ sys.path.insert(
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "something"
+# copyright = "2024, Somebody"
 copyright = "2024, Somebody"
 author = "Somebody"
 
@@ -33,17 +34,19 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "classic"
+html_theme = "alabaster"
 html_static_path = ["_static"]
-
+# html_theme_options = {"rightsidebar": "true", "relbarbgcolor": "black"}
+html_theme_options = {"show_relbar_top": "true", "show_relbar_bottom": "true"}
+html_show_sphinx = False
 #
 #  add in the extension names to the empty list variable 'extensions'
 extensions = [
     "sphinx.ext.autodoc",
-    # "sphinx.ext.napoleon",
-    # "autodocsumm",
-    # "sphinx.ext.coverage",
+    "sphinx.ext.napoleon",
+    "autodocsumm",
+    "sphinx.ext.coverage",
 ]
 
 # add in this line for the autosummary functionality
-# auto_doc_default_options = {"autosummary": True}
+auto_doc_default_options = {"autosummary": True}
