@@ -7,18 +7,16 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
+   something_module.classes
    something_module.functions
 
 Submodules
 ----------
 
-something\_module.bst module
-----------------------------
+.. toctree::
+   :maxdepth: 4
 
-.. automodule:: something_module.bst
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   something_module.bst
 
 Module contents
 ---------------

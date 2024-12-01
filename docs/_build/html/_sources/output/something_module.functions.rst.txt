@@ -4,29 +4,12 @@ something\_module.functions package
 Submodules
 ----------
 
-something\_module.functions.sub\_bst module
--------------------------------------------
+.. toctree::
+   :maxdepth: 4
 
-.. automodule:: something_module.functions.sub_bst
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-something\_module.functions.x module
-------------------------------------
-
-.. automodule:: something_module.functions.x
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-something\_module.functions.xx module
--------------------------------------
-
-.. automodule:: something_module.functions.xx
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   something_module.functions.sub_bst
+   something_module.functions.x
+   something_module.functions.xx
 
 Module contents
 ---------------
