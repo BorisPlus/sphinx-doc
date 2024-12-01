@@ -20,12 +20,6 @@ sphinx-apidoc --implicit-namespaces -eTf -o ./output ../project/something_module
 make html
 ```
 
-## P.S.
-
-```shell
-sphinx-apidoc --implicit-namespaces -eTf -o ./output ../project/something_module/
-```
-
-## Вручную
+## RESULT
 
 ![index.html](/README.files/index.png)
