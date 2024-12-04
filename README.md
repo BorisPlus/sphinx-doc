@@ -2,6 +2,7 @@
 
 ## About
 
+* https://www.sphinx-doc.org/en/master/index.html
 * https://habr.com/ru/companies/netologyru/articles/815563/
 * https://habr.com/ru/articles/750968/
 * https://habr.com/ru/companies/otus/articles/799687/
